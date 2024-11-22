@@ -5,7 +5,7 @@ import FlipCard from './FlipCard'
 import Link from 'next/link'
 
 const Stopwatch: React.FC = () => {
-  const [time, setTime] = useState(36100)
+  const [time, setTime] = useState(35940)
   const [isRunning, setIsRunning] = useState(false)
 
   useEffect(() => {
