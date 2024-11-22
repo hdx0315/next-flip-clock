@@ -19,7 +19,7 @@ const FlipCard: React.FC<FlipCardProps> = ({ digit, label }) => {
 
   return (
     <div className="flex flex-col items-center">
-      <div className="relative w-60 h-96 mx-1">
+      <div className="relative w-52 h-96 mx-1">
         <div className={`flip-card ${flip ? 'flipped' : ''}`}>
           <div className="flip-card-inner">
             <div className="flip-card-front">
