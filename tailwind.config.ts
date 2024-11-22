@@ -15,6 +15,7 @@ export default {
       },
       fontFamily: {
         NimbusSansT: ['NimbusSansT', 'sans-serif'],
+        NimbusSansTBold: ['NimbusSansTBold', 'sans-serif'],
       },
       fontSize: {
         '10xl': '10rem',

@@ -23,10 +23,10 @@ const FlipCard: React.FC<FlipCardProps> = ({ digit, label }) => {
         <div className={`flip-card ${flip ? 'flipped' : ''}`}>
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <span className="text-13xl font-NimbusSansT text-white">{digit}</span>
+              <span className="text-13xl font-NimbusSansTBold text-white">{digit}</span>
             </div>
             <div className="flip-card-back">
-              <span className="text-13xl font-bold font-NimbusSansT text-white">{digit}</span>
+              <span className="text-13xl font-bold font-NimbusSansTBold text-black">{digit}</span>
             </div>
           </div>
         </div>

@@ -27,3 +27,10 @@ body {
   font-weight: 400; /* Regular */
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'NimbusSansTBold';
+  src: url('/fonts/NimbusSansT-BoldCondensed.otf') format('opentype');
+  font-weight: 600; /* Regular */
+  font-style: normal;
+}

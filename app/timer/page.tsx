@@ -2,12 +2,12 @@
 
 import React from 'react'
 import Link from 'next/link'
-import Timer from '../../components/Timer'
+import Stopwatch from '../../components/Stopwatch'
 
-export default function TimerPage() {
+export default function StopwatchPage() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-black">
-      <Timer />
+      <Stopwatch />
     </div>
   )
 }
