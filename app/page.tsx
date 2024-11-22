@@ -3,6 +3,7 @@ import React from 'react'
 import Link from 'next/link'
 import Clock from '../components/Clock'
 import './globals.css';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   return (
