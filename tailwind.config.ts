@@ -11,6 +11,18 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        blackTransparent: "var(--blackTransparent)",
+      },
+      fontFamily: {
+        NimbusSansT: ['NimbusSansT', 'sans-serif'],
+      },
+      fontSize: {
+        '10xl': '10rem',
+        '11xl': '12rem',
+        '12xl': '16rem',
+        '13xl': '20rem',
+        '14xl': '24rem',
+        '15xl': '28rem',
       },
     },
   },
