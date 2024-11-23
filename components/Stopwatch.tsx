@@ -5,8 +5,9 @@ import FlipCard from './FlipCard'
 import Link from 'next/link'
 
 const Stopwatch: React.FC = () => {
-  const [time, setTime] = useState(18940)
+  const [time, setTime] = useState(30037)
   const [isRunning, setIsRunning] = useState(false)
+  const [inp, setInp] = useState(false)
 
   useEffect(() => {
     let interval: NodeJS.Timeout
@@ -56,6 +57,12 @@ const Stopwatch: React.FC = () => {
 
 
       <div className="fixed bottom-8 right-8 space-x-4 flex flex-wrap justify-end">
+        <button
+          className="bg-transparent border-2 border-transparent hover:border-gray-900 text-white font-bold py-2 px-4 rounded mb-2 sm:mb-0"
+          onClick={() => setInp(!isRunning)}
+        >
+          .
+        </button>
         <button
           className="bg-transparent border-2 border-transparent hover:border-green-500 text-white font-bold py-2 px-4 rounded mb-2 sm:mb-0"
           onClick={() => setIsRunning(!isRunning)}
