@@ -67,7 +67,7 @@ const Stopwatch: React.FC = () => {
 
       {/* Action Buttons */}
       <div className="fixed bottom-8 right-8 space-x-4 flex flex-wrap justify-end">
-        {/* Toggle Input Field */}
+        {/* Toggle Input Field 
         <button
           className="bg-transparent border-2 border-transparent hover:border-gray-600 text-gray-600 font-bold py-2 px-4 rounded mb-2 sm:mb-0"
           onClick={() => setInp(!inp)}
@@ -92,7 +92,7 @@ const Stopwatch: React.FC = () => {
               Set
             </button>
           </div>
-        )}
+        )} */}
         {/* Start/Pause Button */}
         <button
           className="bg-transparent border-2 border-transparent hover:border-green-500 text-white font-bold py-2 px-4 rounded mb-2 sm:mb-0"
